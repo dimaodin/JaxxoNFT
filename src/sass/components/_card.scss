@@ -4,7 +4,8 @@
   border-radius: 1rem;
   &-image {
     img {
-      height: 10rem;
+      height: 100%;
+      width: 100%;
       border-radius: 25px;
     }
   }
@@ -52,6 +53,17 @@
       span {
         color: var(--accent-color3);
         font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .card {
+    &-image {
+      img {
+        height: 100%;
+        width: 22rem;
       }
     }
   }
