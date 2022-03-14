@@ -47,7 +47,13 @@
       }
       .card {
         zoom: 0.7;
-        padding: 0 1rem;
+        padding: 0 0.5rem;
+        img:first-child {
+          width: 0.75rem;
+        }
+        img:last-child {
+          width: 20rem;
+        }
       }
     }
   }

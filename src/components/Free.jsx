@@ -6,7 +6,7 @@ import release2 from "../assets/release2.png";
 
 export default function Free() {
   return (
-    <div className="free" id="our-world">
+    <div className="free" id="giveaways">
       <div className="container">
         <div className="background">
           <div className="ellipse pink"></div>
@@ -16,7 +16,7 @@ export default function Free() {
           <div className="image">
             <img src={icon} alt="icon" />
           </div>
-          <h2 className="title">🎁 Free NFT for early birds</h2>
+          <h2 className="title">🎁 Free NFT Drops just for you 🎁 </h2>
           <p className="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla facilisi.
           </p>
@@ -29,7 +29,7 @@ export default function Free() {
             series="Peeps Series"
             title="Blue Peep"
             price={4.39}
-            tag={12983}
+            tag={17590}
             time={1}
           />
         </div>

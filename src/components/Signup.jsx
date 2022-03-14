@@ -2,11 +2,11 @@ import React from "react";
 import signup from "../assets/signup.png";
 export default function Signup() {
   return (
-    <div className="signup">
+    <div className="signup" id="signup">
       <div className="container">
         <div className="content">
-          <p className="sub-title">Launching Soon</p>
-          <h1 className="title">💯 Be the first to Purchase</h1>
+          <p className="sub-title">Launching in July.</p>
+          <h1 className="title">Be the first to Purchase 💯</h1>
           <p className="description">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>

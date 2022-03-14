@@ -9,16 +9,15 @@ export default function Release() {
     <div className="releases" id="launch">
       <div className="release orange">
         <div className="content">
-          <h2 className="title">Initial Release 7/15</h2>
+          <h2 className="title">⚠️ First Release 7/15</h2>
           <p className="description">
-            We have released four limited edition NFTs early which can be bid on
-            via <a href="https://opensea.io/">OpenSea</a>
+          We at JAXXO, released a few limited edition NFTs in early sale, which can be
+          bid on via <a href="https://rarible.com/">Rarible</a>.
           </p>
           <p className="description">
-            There will be the only four of these NFTs we ever make, so be sure
-            not to miss out!
+            There will be only a few of those NFTs that we will craft. Make sure so that you don't miss out.
           </p>
-          <p className="description">50% of proceeds go to charity.</p>
+          <p className="description">95% of the purchases will be donated to a variety of charity organizations worldwide.</p>
           <a href="https://opensea.io/" className="link">
             Check them out <BsArrowRight />
           </a>
@@ -41,17 +40,16 @@ export default function Release() {
           <div className="ellipse orange"></div>
         </div>
         <div className="content">
-          <h2 className="title">Initial Release 7/15</h2>
+          <h2 className="title">⚠️ Second Release 8/15</h2>
           <p className="description">
-            We have released four limited edition NFTs early which can be bid on
-            via <a href="https://opensea.io/">OpenSea</a>
+          We at JAXXO, released a few limited edition NFTs in early sale, which can be
+          bid on via <a href="https://rarible.com/">Rarible</a>.
           </p>
           <p className="description">
-            There will be the only four of these NFTs we ever make, so be sure
-            not to miss out!
+            There will be only a few of those NFTs that we will craft. Make sure so that you don't miss out.
           </p>
-          <p className="description">50% of proceeds go to charity.</p>
-          <a href="https://opensea.io/" className="link">
+          <p className="description">95% of the purchases will be donated to a variety of charity organizations worldwide.</p>
+          <a href="https://rarible.com/" className="link">
             Check them out <BsArrowRight />
           </a>
         </div>

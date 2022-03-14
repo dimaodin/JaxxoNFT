@@ -11,7 +11,13 @@
       gap: 2rem;
       align-items: flex-start;
       .sub-title {
-        color: var(--pink);
+        background: -webkit-linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0)
+          ),
+          linear-gradient(101deg, var(--pink), var(--orange));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
         text-transform: uppercase;
         letter-spacing: -0.1rem;
       }
@@ -99,7 +105,7 @@
           font-size: 3rem;
         }
         .description {
-          font-size: 1.5rem;
+          font-size: 1.25rem;
         }
         button {
           font-size: 1rem;

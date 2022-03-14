@@ -12,41 +12,41 @@ export default function SuperRare() {
       series: "Peeps Series",
       title: "Blue Peep",
       price: 4.39,
-      tag: 12983,
+      tag: 17590,
       time: 10,
     },
     {
       image: super2,
       series: "Peeps Series",
-      title: "Green Hipster",
+      title: "Green Peep",
       price: 2.79,
-      tag: 12983,
+      tag: 51830,
       time: 8,
     },
     {
       image: super3,
       series: "Peeps Series",
-      title: "Orange Geek",
+      title: "Pink Peep",
       price: 1.89,
-      tag: 12983,
+      tag: 73021,
       time: 7,
     },
     {
       image: super4,
       series: "Peeps Series",
-      title: "Purple Afro",
+      title: "Purple Peep",
       price: 3.19,
-      tag: 12983,
+      tag: 94153,
       time: 4,
     },
   ];
   return (
     <div className="super-rare" id="discover">
       <div className="title-container">
-        <h2 className="title">LE Super Rare Auction</h2>
+        <h2 className="title">Trending Auctions ⏳</h2>
         <p className="description">
-          We have released four limited edition NFT's early which which can be
-          bid on via <a href="https://opensea.io/">OpenSea</a>.
+          We at JAXXO, released a few limited edition NFTs in early sale, which can be
+          bid on via <a href="https://rarible.com/">Rarible</a>.
         </p>
       </div>
       <div className="cards">

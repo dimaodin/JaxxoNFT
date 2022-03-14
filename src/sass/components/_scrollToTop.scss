@@ -39,3 +39,16 @@
   visibility: visible;
   opacity: 1;
 }
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .scrollToTop {
+    width: 2rem;
+    height: 2rem;
+    border: solid 1.5px transparent;
+    a {
+      svg {
+        font-size: 1rem;
+      }
+    }
+  }
+}

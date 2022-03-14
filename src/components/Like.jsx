@@ -1,6 +1,6 @@
 import React from "react";
-import eth1 from "../assets/eth1.png";
-import eth2 from "../assets/eth2.png";
+import crown from "../assets/crown.png";
+import medal from "../assets/medal.png";
 
 export default function Like() {
   return (
@@ -8,9 +8,9 @@ export default function Like() {
       <div className="container">
         <div className="content">
           <div className="image">
-            <img src={eth1} alt="eth1" />
+            <img src={crown} alt="crown" />
           </div>
-          <h2 className="title">An NFT like no other</h2>
+          <h2 className="title">The best at our field.</h2>
           <p className="description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim.
           </p>
@@ -20,9 +20,9 @@ export default function Like() {
         </div>
         <div className="content">
           <div className="image">
-            <img src={eth2} alt="eth2" />
+            <img src={medal} alt="medal" />
           </div>
-          <h2 className="title">An NFT like no other</h2>
+          <h2 className="title">Not a usual NFT.</h2>
           <p className="description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim.
           </p>
