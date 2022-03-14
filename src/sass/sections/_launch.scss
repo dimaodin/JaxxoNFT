@@ -4,7 +4,7 @@
   flex-direction: column;
   gap: 5rem;
 
-  .release {
+  .launch {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 5rem;
@@ -110,7 +110,7 @@
   .releases {
     margin: 3rem 0;
     gap: 0;
-    .release {
+    .launch {
       border-radius: 2rem;
       grid-template-columns: 1fr;
       gap: 2rem;

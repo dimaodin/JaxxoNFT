@@ -2,9 +2,9 @@ import React from "react";
 import crown from "../assets/crown.png";
 import medal from "../assets/medal.png";
 
-export default function Like() {
+export default function Activity() {
   return (
-    <div className="like" id="activity">
+    <div className="activity" id="activity">
       <div className="container">
         <div className="content">
           <div className="image">

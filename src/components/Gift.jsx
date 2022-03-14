@@ -4,9 +4,9 @@ import icon from "../assets/icon.png";
 import super1 from "../assets/super1.png";
 import release2 from "../assets/release2.png";
 
-export default function Free() {
+export default function Gift() {
   return (
-    <div className="free" id="giveaways">
+    <div className="gift" id="giveaways">
       <div className="container">
         <div className="background">
           <div className="ellipse pink"></div>

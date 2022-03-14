@@ -5,7 +5,7 @@ import super2 from "../assets/super2.png";
 import super3 from "../assets/super3.png";
 import super4 from "../assets/super4.png";
 
-export default function SuperRare() {
+export default function Discover() {
   const data = [
     {
       image: super1,
@@ -41,7 +41,7 @@ export default function SuperRare() {
     },
   ];
   return (
-    <div className="super-rare" id="discover">
+    <div className="discover" id="discover">
       <div className="title-container">
         <h2 className="title">Trending Auctions ⏳</h2>
         <p className="description">

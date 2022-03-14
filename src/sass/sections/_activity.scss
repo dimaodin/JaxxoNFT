@@ -1,4 +1,4 @@
-.like {
+.activity {
   margin: 5rem 0;
   .container {
     display: grid;
@@ -32,7 +32,7 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
-  .like {
+  .activity {
     margin: 3.5rem 0;
     padding: 0 2rem;
     .container {

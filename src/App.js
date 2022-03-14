@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from "react";
-import Clients from "./components/Clients";
-import Footer from "./components/Footer";
-import Free from "./components/Free";
-import Home from "./components/Home";
-import Like from "./components/Like";
-import Navbar from "./components/Navbar";
-import Release from "./components/Release";
 import ScrollToTop from "./components/ScrollToTop";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Gift from "./components/Gift";
+import Activity from "./components/Activity";
+import Clients from "./components/Clients";
+import Discover from "./components/Discover";
+import Launch from "./components/Launch";
 import Signup from "./components/Signup";
-import SuperRare from "./components/SuperRare";
+import Footer from "./components/Footer";
 import scrollreveal from "scrollreveal";
 import "./sass/index.scss";
+
 function App() {
   const [theme, setTheme] = useState("dark");
   const changeTheme = () => {
@@ -20,7 +21,7 @@ function App() {
     const registerAnimations = () => {
       const sr = scrollreveal({
         origin: "bottom",
-        distance: "20px",
+        distance: "135px",
         duration: 1000,
         reset: false,
       });
@@ -28,16 +29,17 @@ function App() {
         `
         nav,
         .home,
-        .free,
+        .gift,
         .clients,
-        .super-rare,
-        .releases,
-        .like,
+        .discover,
+        .launch,
+        .activity,
         .signup,
         footer
     `,
         {
           interval: 500,
+          delay: 100,
         }
       );
     };
@@ -54,11 +56,11 @@ function App() {
       <ScrollToTop />
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
-      <Free />
-      <Like />
+      <Gift />
+      <Activity />
       <Clients />
-      <SuperRare />
-      <Release />
+      <Discover />
+      <Launch />
       <Signup />
       <Footer />
     </div>

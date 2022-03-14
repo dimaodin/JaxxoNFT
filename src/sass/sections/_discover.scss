@@ -1,4 +1,4 @@
-.super-rare {
+.discover {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -27,7 +27,7 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
-  .super-rare {
+  .discover {
     margin-top: 3.5rem;
     padding: 1rem 2rem;
     width: 100vw;
