@@ -66,6 +66,7 @@
         img {
           width: 100%;
           height: 100%;
+          animation: hueMe 30s ease-in-out infinite;
         }
       }
       .ellipse-container {
@@ -139,4 +140,12 @@
       }
     }
   }
+}
+
+@keyframes hueMe {
+0% { filter: hue-rotate(0deg) }
+    25% {  filter: hue-rotate(-475deg)  }
+    50% { filter: hue-rotate(0deg) }
+    75% { filter: hue-rotate(-475deg) }
+    100% { filter: hue-rotate(0deg) }
 }

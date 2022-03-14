@@ -9,7 +9,10 @@
     grid-template-columns: 1fr 1fr;
     border-radius: 5rem;
     transform: skew(-5deg) rotate(5deg) rotateX(25deg) translate3d(0, 0, 0);
-
+      box-shadow: 0 4px 8px 0 var(--green);
+      &:last-child {
+         box-shadow: 0 4px 8px 0 var(--orange);
+      }
     .content {
       padding: 5rem 8rem;
 

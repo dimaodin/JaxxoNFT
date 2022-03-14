@@ -47,7 +47,30 @@ footer {
           gap: 1rem;
           li {
             letter-spacing: -1px;
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
           }
+          li:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            display: inline-block;
+            height: 1em;
+            width: 100%;
+            border-bottom: 1px solid;
+            margin-top: 10px;
+            opacity: 0;
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+            -webkit-transform: scale(0,1);
+            transform: scale(0,1);
+          }
+          li:hover:after {
+              opacity: 1;
+              -webkit-transform: scale(1);
+              transform: scale(1);
+            }
         }
       }
     }
@@ -59,6 +82,19 @@ footer {
       border-radius: 25px;
       background-color: var(--accent-color2);
       padding: 0.2rem 1.5rem;
+      transition: 0.5s ease-in-out;
+      
+      &:hover{
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0)
+          ),
+        linear-gradient(101deg, var(--pink), var(--orange));
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        color: var(--accent-color2);
+
+      }
     }
     span {
       color: var(--accent-color3);

@@ -9,6 +9,7 @@
     border-radius: 1rem;
     overflow: hidden;
     z-index: 1;
+    box-shadow: 0 4px 8px 0 var(--red);
     .background {
       z-index: -1;
       .ellipse {
@@ -91,8 +92,8 @@
       transform: rotate(-10deg);
       z-index: 3;
       font-size: 0.8rem;
-
       .card-image {
+        
         img {
           height: 27.5rem;
           border-radius: 15px;

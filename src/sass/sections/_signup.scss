@@ -4,6 +4,7 @@
   padding-top: 4rem;
   overflow-y: hidden;
   border-radius: 0.5rem;
+
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,6 +65,7 @@
       position: relative;
       z-index: 10;
       .image {
+
         img {
           height: 25rem;
         }
