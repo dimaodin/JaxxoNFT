@@ -16,7 +16,7 @@ export default function Free() {
           <div className="image">
             <img src={icon} alt="icon" />
           </div>
-          <h2 className="title">Free NFT Drops just for you 🎁 </h2>
+          <h2 className="title">FREE NFT DROPS JUST FOR YOU 🎁 </h2>
           <p className="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla facilisi.
           </p>
