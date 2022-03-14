@@ -98,22 +98,25 @@ nav {
         flex-direction: row-reverse;
         gap: 1rem;
         z-index: 40;
+
         .mode {
-          margin-right: 0.75rem;
+          margin-right: 1.75rem;
           font-size: 1.25rem;
         }
         .toggle {
           z-index: 40;
           display: block;
           font-size: 1.25rem;
+          position: fixed;
         }
       }
     }
     .links-container {
       z-index: 30;
-      background-image: linear-gradient(101deg, var(--pink), var(--orange));
+      background-color: rgba(17, 17, 17, 0.81);
+      backdrop-filter: blur(20px);
       height: 100vh;
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       opacity: 0;
@@ -126,10 +129,16 @@ nav {
       .links {
         flex-direction: column;
         font-size: 2.5rem;
-        line-height: 2rem;
+        line-height: 2.5rem;
         li {
           a {
-            color: var(--background);
+            background: -webkit-linear-gradient(
+                rgba(255, 255, 255, 0),
+                rgba(255, 255, 255, 0)
+              ),
+              linear-gradient(101deg, var(--pink), var(--orange));
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
           }
           a:after {
             border-bottom: 3px solid;
