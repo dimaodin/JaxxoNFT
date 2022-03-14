@@ -19,7 +19,7 @@ export default function Release() {
           </p>
           <p className="description">95% of the purchases will be donated to a variety of charity organizations worldwide.</p>
           <a href="https://opensea.io/" className="link">
-            Check them out <BsArrowRight />
+            I want more details <BsArrowRight />
           </a>
         </div>
         <div className="image">
@@ -34,7 +34,7 @@ export default function Release() {
             series="Peeps Series"
             title="Orange Peep"
             price={3.79}
-            tag="1094"
+            tag="20921"
             time={2}
           />
           <div className="ellipse orange"></div>
@@ -50,7 +50,7 @@ export default function Release() {
           </p>
           <p className="description">95% of the purchases will be donated to a variety of charity organizations worldwide.</p>
           <a href="https://rarible.com/" className="link">
-            Check them out <BsArrowRight />
+            I want more details <BsArrowRight />
           </a>
         </div>
       </div>

@@ -10,7 +10,7 @@ export default function Signup() {
           <p className="description">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <button>SECURE YOUR SPOT🔥</button>
+          <button>SECURE YOUR SPOT 🔥</button>
         </div>
         <div className="image-container">
           <div className="image">

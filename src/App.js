@@ -20,7 +20,7 @@ function App() {
     const registerAnimations = () => {
       const sr = scrollreveal({
         origin: "bottom",
-        distance: "0px",
+        distance: "10px",
         duration: 1000,
         reset: false,
       });

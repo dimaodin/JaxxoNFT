@@ -55,6 +55,7 @@
         cursor: pointer;
         &:hover {
           box-shadow: none;
+          color: var(--accent-color2);
         }
       }
     }
