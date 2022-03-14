@@ -54,7 +54,7 @@
       align-items: flex-end;
       border-radius: 5rem;
       img {
-        height: 24rem;
+        height: 37rem;
       }
       .ellipse {
         z-index: -1;
@@ -81,7 +81,7 @@
       margin-top: 2rem;
       .card-image {
         img {
-          height: 14rem;
+          height: 25rem;
         }
       }
       .ellipse {
@@ -131,9 +131,17 @@
       }
       .image {
         zoom: 0.5;
+        img {
+          height: 25rem;
+        }
       }
       .card-container {
         zoom: 0.5;
+        .card-image {
+          img {
+            height: 15rem;
+          }
+        }
       }
       .ellipse {
         display: none !important;
