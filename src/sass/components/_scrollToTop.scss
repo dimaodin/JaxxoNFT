@@ -8,8 +8,8 @@
   right: 5%;
   border-radius: 5rem;
   background-color: red;
-  height: 4rem;
-  width: 4rem;
+  height: 2rem;
+  width: 2rem;
   border: solid 3px transparent;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0),
@@ -29,7 +29,7 @@
   }
   a {
     svg {
-      font-size: 2rem;
+      font-size: 1rem;
       color: var(--accent-color1);
     }
   }
