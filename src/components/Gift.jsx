@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import icon from "../assets/icon.png";
+import icon from "../assets/icon.webp";
 import super1 from "../assets/super1.png";
 import release2 from "../assets/release2.png";
 
@@ -13,14 +13,14 @@ export default function Gift() {
           <div className="ellipse green"></div>
         </div>
         <div className="content">
-          <div className="image">
+          <div className="image" data-aos="fade" data-aos-offset="-200">
             <img src={icon} alt="icon" />
           </div>
-          <h2 className="title">FREE NFT DROPS JUST FOR YOU 🎁 </h2>
-          <p className="description">
+          <h2 className="title" data-aos="fade" data-aos-offset="-200" data-aos-delay="100">FREE NFT DROPS JUST FOR YOU 🎁 </h2>
+          <p className="description" data-aos="fade" data-aos-offset="-200" data-aos-delay="200">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla facilisi.
           </p>
-        <button>CLAIM THE DROP 🎊</button>
+        <button data-aos="fade" data-aos-offset="-200" data-aos-delay="300">CLAIM THE DROP 🎊</button>
         </div>
       </div>
       <div className="cards">

@@ -83,7 +83,6 @@ footer {
       background-color: var(--accent-color2);
       padding: 0.2rem 1.5rem;
       transition: 0.5s ease-in-out;
-      
       &:hover{
         background-image: linear-gradient(
             rgba(255, 255, 255, 0),
@@ -93,7 +92,6 @@ footer {
         background-origin: border-box;
         background-clip: content-box, border-box;
         color: var(--accent-color2);
-
       }
     }
     span {

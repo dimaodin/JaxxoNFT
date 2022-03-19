@@ -9,8 +9,9 @@ import Discover from "./components/Discover";
 import Launch from "./components/Launch";
 import Signup from "./components/Signup";
 import Footer from "./components/Footer";
-import scrollreveal from "scrollreveal";
 import "./sass/index.scss";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -18,39 +19,9 @@ function App() {
     theme === "dark" ? setTheme("light") : setTheme("dark");
   };
   useEffect(() => {
-    const registerAnimations = () => {
-      const sr = scrollreveal({
-        origin: "bottom",
-        distance: "135px",
-        duration: 750,
-        reset: false,
-      });
-      sr.reveal(
-        `
-        nav,
-        .home,
-        .gift,
-        .clients,
-        .discover,
-        .launch,
-        .activity,
-        .signup,
-        footer
-    `,
-        {
-          interval: 500,
-          delay: 150,
-        }
-      );
-    };
-    registerAnimations();
+    Aos.init({ duration: 1500 });
   }, []);
-  window.setTimeout(() => {
-    const home = document.getElementsByClassName("home");
-    home[0].style.transform = "none";
-    const nav = document.getElementsByTagName("nav");
-    nav[0].style.transform = "none";
-  }, 1500);
+
   return (
     <div data-theme={theme} className="app-container">
       <ScrollToTop />

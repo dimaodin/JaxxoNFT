@@ -110,7 +110,7 @@ nav {
           z-index: 40;
           display: block;
           font-size: 1.25rem;
-          position: fixed;
+          position: absolute;
         }
       }
     }
@@ -144,6 +144,7 @@ nav {
           }
           a:after {
             border-bottom: 3px solid;
+            margin-top: 1rem;
           }
           &:last-of-type {
             display: none;

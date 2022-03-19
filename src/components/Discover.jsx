@@ -43,8 +43,8 @@ export default function Discover() {
   return (
     <div className="discover" id="discover">
       <div className="title-container">
-        <h2 className="title">Trending Auctions ⏳</h2>
-        <p className="description">
+        <h2 className="title" data-aos="fade" data-aos-offset="-200">Trending Auctions ⏳</h2>
+        <p className="description" data-aos="fade" data-aos-offset="-200" data-aos-delay="100">
           We at JAXXO, released a few limited edition NFTs in early sale, which can be
           bid on via <a href="https://rarible.com/">Rarible</a>.
         </p>

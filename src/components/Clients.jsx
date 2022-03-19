@@ -8,7 +8,7 @@ import clients5 from "../assets/clients5.svg";
 export default function Clients() {
   const data = [clients1, clients2, clients3, clients4, clients5];
   return (
-    <div className="clients">
+    <div className="clients"  data-aos="fade" data-aos-offset="-200" data-aos-delay="50">
       <div className="container">
         <div className="clients-container">
           {data.map((client, index) => (
