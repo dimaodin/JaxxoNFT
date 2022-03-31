@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
-import { BsFillSunFill } from "react-icons/bs";
-import { BsFillMoonFill } from "react-icons/bs";
+
 import logo from "../assets/logo.png";
-export default function Navbar({ changeTheme, currentTheme }) {
+export default function Navbar() {
   const [navState, setNavState] = useState(false);
   return (
     <nav>
@@ -20,13 +19,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
               <GiHamburgerMenu onClick={() => setNavState(true)} />
             )}
           </div>
-          <div className="mode" onClick={changeTheme}>
-            {currentTheme === "dark" ? (
-              <BsFillSunFill className="light" />
-            ) : (
-              <BsFillMoonFill className="dark" />
-            )}
-          </div>
+
         </div>
       </div>
       <div className={`links-container ${navState ? "nav-visible" : ""}`}>
@@ -46,13 +39,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
           <li>
             <a href="#signup">Sign Up</a>
           </li>
-          <li onClick={changeTheme}>
-            {currentTheme === "dark" ? (
-              <BsFillSunFill className="light" />
-            ) : (
-              <BsFillMoonFill className="dark" />
-            )}
-          </li>
+
         </ul>
       </div>
     </nav>
