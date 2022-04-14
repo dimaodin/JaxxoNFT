@@ -19,7 +19,6 @@ export default function Navbar() {
               <GiHamburgerMenu onClick={() => setNavState(true)} />
             )}
           </div>
-
         </div>
       </div>
       <div className={`links-container ${navState ? "nav-visible" : ""}`}>

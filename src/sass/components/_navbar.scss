@@ -10,9 +10,7 @@ nav {
     }
     .toggle-container {
       display: none;
-
     }
-
   }
   .links-container {
     .links {
@@ -37,28 +35,28 @@ nav {
           transition: 0.5s ease-in-out;
         }
         a:after {
-            content: '';
-            position: absolute;
-            left: 0;
-            display: inline-block;
-            height: 1em;
-            width: 100%;
-            border-bottom: 1px solid;
-            margin-top: 10px;
-            opacity: 0;
-            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-            transition: opacity 0.35s, transform 0.35s;
-            -webkit-transform: scale(0,1);
-            transform: scale(0,1);
-          }
+          content: "";
+          position: absolute;
+          left: 0;
+          display: inline-block;
+          height: 1em;
+          width: 100%;
+          border-bottom: 1px solid;
+          margin-top: 10px;
+          opacity: 0;
+          -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+          transition: opacity 0.35s, transform 0.35s;
+          -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+        }
         a:hover {
-            color: var(--accent-color1);
-          }
+          color: var(--accent-color1);
+        }
         a:hover:after {
-            opacity: 1;
-            -webkit-transform: scale(1);
-            transform: scale(1);
-          }
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
         &:last-of-type {
           a {
             color: var(--pink);
@@ -91,6 +89,7 @@ nav {
       align-items: center;
       width: 100%;
       .brand {
+        margin-top: 1.25rem;
         img {
           height: 1.5rem;
         }

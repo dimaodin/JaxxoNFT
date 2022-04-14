@@ -1,5 +1,8 @@
 import React from "react";
 import home from "../assets/home.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 export default function Home() {
   return (
     <div className="home">
@@ -14,7 +17,12 @@ export default function Home() {
         </div>
         <div className="image-container" data-aos="fade" data-aos-offset="-200" data-aos-delay="400">
           <div className="image">
-              <img src={home} alt="home" />
+            <LazyLoadImage
+            alt="home"
+            src={home}
+            effect="blur"
+            delayTime={300}
+              />
           </div>
           <div className="ellipse-container">
             <div className="ellipse pink"></div>
