@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap&family=Anton:wght@100;200;300;400;500;600;700;800;900");
 :root {
-  --orange: #fc00ff;
-  --pink: #00dbde;
-  --green: #fbda61;
-  --red: #c471ed;
+  --pink: #fc00ff;
+  --turquoise: #00dbde;
+  --yellow: #fbda61;
+  --purple: #c471ed;
   --light-green: #edfff6;
   --light-orange: #fff0e8;
   --accent-color1: #ffffff;
@@ -49,5 +49,5 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--orange);
+  background-color: var(--pink);
 }

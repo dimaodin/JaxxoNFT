@@ -9,10 +9,10 @@
     grid-template-columns: 1fr 1fr;
     border-radius: 5rem;
     transform: skew(-5deg) rotate(5deg) rotateX(25deg) translate3d(0, 0, 0);
-      box-shadow: 0 4px 8px 0 var(--green);
-      &:last-child {
-         box-shadow: 0 4px 8px 0 var(--orange);
-      }
+    box-shadow: 0 4px 8px 0 var(--yellow);
+    &:last-child {
+      box-shadow: 0 4px 8px 0 var(--pink);
+    }
     .content {
       padding: 5rem 8rem;
 
@@ -69,8 +69,8 @@
 
         filter: blur(100px);
       }
-      .pink {
-        background-color: var(--pink);
+      .turquoise {
+        background-color: var(--turquoise);
       }
     }
     .card-container {
@@ -97,16 +97,16 @@
         width: 20rem;
         filter: blur(100px);
       }
-      .orange {
-        background-color: var(--orange);
+      .pink {
+        background-color: var(--pink);
       }
     }
   }
-  .orange {
-    background-color: var(--orange);
+  .pink {
+    background-color: var(--pink);
   }
-  .green {
-    background-color: var(--green);
+  .yellow {
+    background-color: var(--yellow);
   }
 }
 

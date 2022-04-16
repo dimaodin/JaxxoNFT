@@ -58,7 +58,7 @@ export default function Footer() {
       </div>
       <div className="lower">
         <span>&copy; Copyright 2022 Jaxxo.</span>
-        <span>Made by <a href="https://dimaodin.com">Dima Odintsov.</a></span>
+        <span>Built by <a href="https://dimaodin.com">Dima Odintsov.</a></span>
         <span className="launch">· Launching July 2022 🎉</span>
       </div>
     </footer>

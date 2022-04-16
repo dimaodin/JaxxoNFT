@@ -7,7 +7,7 @@ import Card from "./Card";
 export default function Launch() {
   return (
     <div className="releases" id="launch">
-      <div className="launch orange">
+      <div className="launch pink">
         <div className="content">
           <h2 className="title" data-aos="fade" data-aos-offset="-200">⚠️ First Launch 7/15</h2>
           <p className="description" data-aos="fade" data-aos-offset="-200" data-aos-delay="100">
@@ -24,10 +24,10 @@ export default function Launch() {
         </div>
         <div className="image" data-aos="fade" data-aos-offset="-200" data-aos-delay="500">
           <img src={peeps1} alt="peeps" />
-          <div className="ellipse pink"></div>
+          <div className="ellipse turquoise"></div>
         </div>
       </div>
-      <div className="launch green">
+      <div className="launch yellow">
         <div className="card-container">
           <Card
             image={peeps2}
@@ -37,7 +37,7 @@ export default function Launch() {
             tag="20921"
             time={2}
           />
-          <div className="ellipse orange"></div>
+          <div className="ellipse pink"></div>
         </div>
         <div className="content">
           <h2 className="title" data-aos="fade" data-aos-offset="-200">⚠️ Second Launch 8/15</h2>

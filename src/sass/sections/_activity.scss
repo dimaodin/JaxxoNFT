@@ -1,9 +1,11 @@
 .activity {
   margin: 5rem 0;
+
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
+
     .content {
       transform: skew(5deg) rotate(-5deg) rotateX(25deg) translate3d(0, 0, 0);
       background-color: var(--accent-color2);
@@ -11,16 +13,17 @@
       flex-direction: column;
       gap: 2rem;
       padding: 3rem;
+
       border-radius: 5rem;
-      box-shadow: 0 4px 8px 0 var(--orange);
+      box-shadow: 0 4px 8px 0 var(--pink);
       transition: 0.5s ease-in-out;
       &:hover {
-      box-shadow: 0 4px 8px 0 var(--green);
+        box-shadow: 0 4px 8px 0 var(--yellow);
       }
-      &:last-child{
-        box-shadow: 0 4px 8px 0 var(--green);
+      &:last-child {
+        box-shadow: 0 4px 8px 0 var(--yellow);
         &:hover {
-        box-shadow: 0 4px 8px 0 var(--orange);
+          box-shadow: 0 4px 8px 0 var(--pink);
         }
       }
       .image {

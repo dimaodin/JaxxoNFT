@@ -9,8 +9,8 @@ export default function Gift() {
     <div className="gift" id="giveaways">
       <div className="container">
         <div className="background">
-          <div className="ellipse pink"></div>
-          <div className="ellipse green"></div>
+          <div className="ellipse turquoise"></div>
+          <div className="ellipse yellow"></div>
         </div>
         <div className="content">
           <div className="image" data-aos="fade" data-aos-offset="-200">

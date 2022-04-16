@@ -23,9 +23,7 @@ nav {
         .dark {
           color: black;
         }
-        .light {
-          color: yellow;
-        }
+
         a {
           color: var(--accent-color3);
           text-decoration: none;
@@ -59,20 +57,8 @@ nav {
         }
         &:last-of-type {
           a {
-            color: var(--pink);
+            color: var(--turquoise);
           }
-        }
-      }
-    }
-  }
-}
-
-[data-theme="light"] {
-  nav {
-    .brand-container {
-      .brand {
-        img {
-          filter: brightness(0);
         }
       }
     }
@@ -137,7 +123,7 @@ nav {
                 rgba(255, 255, 255, 0),
                 rgba(255, 255, 255, 0)
               ),
-              linear-gradient(101deg, var(--pink), var(--orange));
+              linear-gradient(101deg, var(--turquoise), var(--pink));
             background-clip: text;
             -webkit-text-fill-color: transparent;
           }
